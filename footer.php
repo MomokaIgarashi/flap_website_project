@@ -12,6 +12,19 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+
+		<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Footer Menu', 'flap' ); ?></button>
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'footer1',
+					'menu_id'        => 'footer-menu',
+				)
+			);
+			?>
+		</nav><!-- #site-navigation -->
+
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'flap' ) ); ?>">
 				<?php
