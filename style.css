@@ -985,3 +985,48 @@ textarea {
 .footer-nav{
 	list-style: none;
 }
+
+/* -----contact page --------------- */
+
+.contact-form-wrapper{
+	background-color: #FFFFBB;
+	border-radius: 2rem;
+	margin: 7%;
+}
+
+.contact-form__inner{
+	margin: 10%;
+	padding: 5% 0;
+}
+
+.contact-list{
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 0;
+}
+
+.contact-title-wrapper{
+	width: 20vw;
+}
+
+.contact-title{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.contct-content-wrapper{
+	width: 50vw;
+}
+
+.contact-box{
+	width: 40vw;
+}
+
+.contact-content{
+	width: 40vw;
+
+}
+
+.contact-button-wrapper{
+	text-align: center;
+}
