@@ -967,3 +967,21 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+/* ---custom CSS--------- */
+
+.site-info{
+	text-align: center;
+}
+
+
+/* footer */
+
+.site-footer{
+	background-color: #F3C70C;
+	color: #50351D;
+}
+
+.footer-nav{
+	list-style: none;
+}

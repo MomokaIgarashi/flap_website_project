@@ -50,6 +50,7 @@ function flap_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'flap' ),
+			'footer1' => esc_html__( 'Footer1', 'flap' ),
 		)
 	);
 
