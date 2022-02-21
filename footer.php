@@ -22,6 +22,14 @@
 				)
 			);
 			?>
+
+			<div class="footer2-wrapper">
+				<p>FLAP</p>
+				<p>代表　　森　大樹</p>
+				<p>TEL    080-3098-7009</p>
+				<p>連絡先　yamada-tarou@gmail.com</p>
+				<a>パートナー    <img src="" alt=""></a>
+			</div>
 		</nav>
 
 		<div class="site-info">
