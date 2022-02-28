@@ -669,9 +669,13 @@ a:active {
 	display: block;
 }
 
-.post,
-.page {
+.post {
 	margin: 0 0 1.5em;
+}
+
+.page{
+	margin: 0;
+	padding: 0;
 }
 
 .updated:not(.published) {
@@ -943,6 +947,16 @@ a:active {
 	padding: 2% 0;
 }
 
+.contact__main-title{
+	color: #50351D;
+}
+
+.contact__main-description{
+	font-size: ;
+	color: #50351D;
+	font-weight: inherit;
+}
+
 .contact-form-wrapper{
 	background-color: #FFFFBB;
 	border-radius: 2rem;
@@ -951,6 +965,10 @@ a:active {
 
 .contact-form__inner{
 	margin: 10%;
+	padding: 5% 0;
+}
+
+.contact-form__inner__wrapper{
 	padding: 5% 0;
 }
 
@@ -979,7 +997,7 @@ a:active {
 	width: 40vw;
 	font-size: 0.8rem;
 	padding: 2% 1%;
-	border-radius: 10px;
+	border-radius: 20px;
 	border: none;
 	color: #50351D;
 }
@@ -992,7 +1010,7 @@ a:active {
 	width: 40vw;
 	font-size: 0.8rem;
 	padding: 2% 1%;
-	border-radius: 10px;
+	border-radius: 20px;
 	border: none;
 	color: #50351D;
 }
@@ -1005,16 +1023,14 @@ a:active {
 	text-align: center;
 }
 
-.button{
-} 
-
-.contact-confirm-button{
+input.contact-confirm-button{
 	background-color: #FFD93F;
 	color: #50351D;
 	border-radius: 50px;
 	border: none;
 	padding: 2% 3%;
 	width: 30%;
+	white-space: normal;
 }
 
 button.contact-back-button{
@@ -1025,7 +1041,74 @@ button.contact-back-button{
 	padding: 2% 3%;
 	width: 30%;
 	margin: 2% 0;
+	white-space: normal;
 }
 
-.contact-button-wrapper{
+p.contact--complete__back-to-toppage{
+	text-decoration: #50351D underline;
+}
+
+.contact--complete__wrapper{
+	background-color: ivory;
+	padding: 5%;
+	border-radius: 20px;
+	color: #666;
+}
+
+@media (max-width: 768px) {
+
+	.contact--title__image{
+		width: 80%;
+		margin-top: 5%;
+	}
+
+	.contact-form-wrapper{
+		margin-right: 0;
+		border-radius: 2rem 0 0 2rem;
+	}
+
+	.contact__main-title{
+		font-size: 5vw;
+		padding-top: 5%;
+	}
+
+	.contact__main-description{
+		font-size: 4.2vw;
+	}
+
+	.contact-list{
+		display: inherit;
+		padding: 5% 0;
+	}
+
+	.contact-title-wrapper{
+		width: 100%;
+	}
+
+	.contct-content-wrapper{
+		width: 100%;
+	}
+
+	.contact-box{
+		width: 75vw;
+		padding: 4% 2%;
+		border-radius: 20px;
+	}
+
+	.contact-content{
+		width: 75vw;
+		padding: 4% 2%;
+		border-radius: 20px;
+	}
+
+	input.contact-confirm-button{
+		width: 90%;
+		padding: 5% 4%;
+	}
+
+	button.contact-back-button{
+		width: 90%;
+		padding: 5% 4%;
+		margin: 5% 0;
+	}
 }
