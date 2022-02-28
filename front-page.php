@@ -7,7 +7,10 @@ Template Name: トップページ
 get_header();
 ?>
 
-<div class="index--hero"></div>
+<div class="index--hero" style="font-size:2rem; padding:3% 0;">
+	Coming Soon <br>
+	現在、準備中です。<br>
+</div>
 
 <div class="index--aboutus"></div>
 

@@ -532,40 +532,13 @@ table {
 
 /* Links
 --------------------------------------------- */
-/* a {
-	color: #4169e1;
-} */
 
-a:visited {
-	color: #800080;
+a:hover {
+	cursor: pointer;
 }
 
-a:hover,
-a:focus,
-a:active {
-	color: #191970;
-}
-
-a:focus {
-	outline: thin dotted;
-}
-
-a:hover,
-a:active {
-	outline: 0;
-}
-
-/* Forms
---------------------------------------------- */
 
 
-/*--------------------------------------------------------------
-# Layouts
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Components
---------------------------------------------------------------*/
 
 /* Navigation
 --------------------------------------------- */
@@ -818,51 +791,7 @@ a:active {
 	display: block;
 }
 
-/*--------------------------------------------------------------
-# Utilities
---------------------------------------------------------------*/
 
-/* Accessibility
---------------------------------------------- */
-
-/* Text meant only for screen readers. */
-.screen-reader-text {
-	border: 0;
-	clip: rect(1px, 1px, 1px, 1px);
-	clip-path: inset(50%);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute !important;
-	width: 1px;
-	word-wrap: normal !important;
-}
-
-.screen-reader-text:focus {
-	background-color: #f1f1f1;
-	border-radius: 3px;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	clip: auto !important;
-	clip-path: none;
-	color: #21759b;
-	display: block;
-	font-size: 0.875rem;
-	font-weight: 700;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000;
-}
-
-/* Do not show the outline on the skip link target. */
-#primary[tabindex="-1"]:focus {
-	outline: 0;
-}
 
 /* Alignments
 --------------------------------------------- */
@@ -894,26 +823,47 @@ a:active {
 	margin-bottom: 1.5em;
 }
 
-/* ---custom CSS--------- */
+/* /-----------------------------------custom CSS by FLAP----------------------------------------- / */
 
 .site-info{
 	text-align: center;
 }
 
-/* * header * */
+/* * ------------header------------- * */
 
-.header-logo{
-	width: 25%;
+img.custom-logo{
+	margin-top: 7%;
+	margin-left: 7%;
+	width: 25vw;
 	height: auto;
 }
 
+#primary-menu{
+}
+
+
 .site-header{
 	display: flex;
+	justify-content: space-evenly;
 }
 
 .main-navigation{
+}
+
+.menu-header-container{
+	margin: 0 5%;
+}
+
+.nav-menu{
+	padding-top: 3%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+}
+
+li.menu-item{
+	padding: 3% 5%;
+	color: #50351D ;
+	font-weight: bold;
 }
 
 /* footer */
@@ -930,6 +880,7 @@ a:active {
 .footer-nav{
 	list-style: none;
 	display: flex;
+	padding: 2% 0;
 }
 
 .footer-menu{

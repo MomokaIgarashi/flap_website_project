@@ -55,5 +55,6 @@
 				)
 			);
 			?>
+			<!-- <div class="header-language">JP | EN</div> -->
 		</nav>
 	</header>
