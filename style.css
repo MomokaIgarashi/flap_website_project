@@ -914,6 +914,10 @@ a:active {
 
 /* footer */
 
+.section-contact-footer-wrapper{
+	background-color: #884F24;
+}
+
 .site-footer{
 	background-color: #F3C70C;
 	color: #50351D;
@@ -974,7 +978,7 @@ a:active {
 .contact-box{
 	width: 40vw;
 	font-size: 0.8rem;
-	padding: 2% 0;
+	padding: 2% 1%;
 	border-radius: 10px;
 	border: none;
 	color: #50351D;
@@ -987,7 +991,7 @@ a:active {
 .contact-content{
 	width: 40vw;
 	font-size: 0.8rem;
-	padding: 1% 0;
+	padding: 2% 1%;
 	border-radius: 10px;
 	border: none;
 	color: #50351D;
@@ -1010,6 +1014,17 @@ a:active {
 	border-radius: 50px;
 	border: none;
 	padding: 2% 3%;
+	width: 30%;
+}
+
+button.contact-back-button{
+	background-color: #ccc;
+	color: #50351D;
+	border-radius: 50px;
+	border: none;
+	padding: 2% 3%;
+	width: 30%;
+	margin: 2% 0;
 }
 
 .contact-button-wrapper{

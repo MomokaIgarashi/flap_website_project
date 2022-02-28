@@ -11,6 +11,11 @@
 
 ?>
 
+	<!-- <section class="section-contact-footer-wrapper">
+		<p>CONTACT US</p>
+		<p>お問い合わせはこちらへ</p>
+	</section> -->
+
 	<footer id="colophon" class="site-footer">
 
 		<nav id="" class="footer-nav">
