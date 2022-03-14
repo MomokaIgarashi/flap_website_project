@@ -30,7 +30,33 @@ function flap_customize_register( $wp_customize ) {
 				'render_callback' => 'flap_customize_partial_blogdescription',
 			)
 		);
+		
 	}
+
+	$wp_customize->add_panel('footer_panel', [
+		'title' => 'フッター設定',
+			'priority' => 30,
+	]);	
+	$wp_customize->add_section('footer_test_section' ,[
+		'title' => 'テストセクション',
+		'priority' => 1,
+	]);
+	$wp_customize->add_setting('footer_setting', [
+		'transport' => 'refresh',
+		'default' => 'test',
+	]);
+	$wp_customize->add_control(
+		new WP_Customize_Control(
+			$wp_customize,
+			'footer_setting',
+			[
+				'label' => 'テスト',
+				'section' => 'footer_test_section',
+				'setting' => 'footer_setting',
+				'priority' => 1,
+			]
+		)
+	);
 }
 add_action( 'customize_register', 'flap_customize_register' );
 

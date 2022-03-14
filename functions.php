@@ -177,3 +177,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+// テンプレートディレクトリのURL
+add_shortcode('template_uri', function () {
+	return get_template_directory_uri();
+});
