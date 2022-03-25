@@ -1069,8 +1069,71 @@ img.index--service--image__title{
 	border-radius: 20px;
 }
 
+.index--video{
+	background: #FFFFBB;
+	display: flex;
+	padding: 5% ;
+}
+
+.index--video--post__wrapper{
+	width: 40vw;
+}
+
+.index--video__wrapper{
+	background: #ffffff;
+	border-radius: 4rem;
+	width: 50vw;
+	text-align: center;
+	margin: 3%;
+	padding: 5%;
+}
+
+.index--video__title{
+	font-size: 2.4rem;
+	margin-top: 2%;
+}
+
+.index--video__description{
+	margin: 0 10%;
+	line-height: 2.4rem;
+}
+
+.index--video--image__button{
+	margin-top: 5%;
+}
+
 .contact-menu{
 	background: #685741;
+	display: flex;
+	justify-content: space-around;
+	padding: 5%;
+}
+
+.index--contact--image__title{
+	width: 40vw;
+	height: fit-content;
+}
+
+.contact-menu__address{
+	color: #ffffff;
+}
+
+.contact-menu__button{
+	display: flex;
+	border-radius: 2rem;
+	padding: 2% 10%;
+	width: 30vw;
+}
+
+.contact-menu__button__text{
+	font-size: 1rem;
+	padding: 0 3%;
+	margin-bottom: 0;
+}
+
+.contact-menu__icon{
+	width: 3vw;
+	height: fit-content;
 }
 
 /* -----contact page --------------- */
