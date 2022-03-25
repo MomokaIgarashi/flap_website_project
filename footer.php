@@ -30,15 +30,17 @@
 
 				<div class="footer2-wrapper">
 					<p class="footer2-text">FLAP</p>
-					<p class="footer2-text">代表　　森　大樹</p>
-					<p class="footer2-text">TEL    080-3098-7009</p>
-					<p class="footer2-text">連絡先 mori@flap.tokyo</p>
-					<p class="footer2-text">パートナー</p>
-					<p><?= get_theme_mod('footer_setting'); ?></p>
+					<p class="footer2-text--sub">代表　　森　大樹</p>
+					<p class="footer2-text--sub">TEL    080-3098-7009</p>
+					<p class="footer2-text--sub">連絡先 mori@flap.tokyo</p>
+					<p class="footer2-text--partner">パートナー</p>
+					<p class="footer2-partner">エイムス株式会社</p>
+					<p class="footer2-partner">株式会社アグリーンハート</p>
+					<!-- <p><?= get_theme_mod('footer_setting'); ?></p> -->
 				</div>
 			</nav>
-			<div>
-				<nav>JAPANESE | ENGLISH</nav>
+			<div class="footer3-wrapper">
+				<nav class="footer-language">JAPANESE | ENGLISH</nav>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/nav/flap-logo.png" class="footer--nav__image" alt="">
 			</div>
 		</div>

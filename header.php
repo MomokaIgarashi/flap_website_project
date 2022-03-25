@@ -17,6 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<script src="https://kit.fontawesome.com/46de671bad.js" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 </head>
 
@@ -46,7 +47,7 @@
 		</div>
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'flap' ); ?></button>
+			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'flap' ); ?></button> -->
 			<?php
 			wp_nav_menu(
 				array(

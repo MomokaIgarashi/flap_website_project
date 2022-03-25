@@ -38,7 +38,7 @@ function flap_customize_register( $wp_customize ) {
 			'priority' => 30,
 	]);	
 	$wp_customize->add_section('footer_test_section' ,[
-		'title' => 'テストセクション',
+		'title' => 'パートナー',
 		'priority' => 1,
 	]);
 	$wp_customize->add_setting('footer_setting', [
@@ -50,7 +50,7 @@ function flap_customize_register( $wp_customize ) {
 			$wp_customize,
 			'footer_setting',
 			[
-				'label' => 'テスト',
+				'label' => 'パートナー１',
 				'section' => 'footer_test_section',
 				'setting' => 'footer_setting',
 				'priority' => 1,
