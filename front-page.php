@@ -95,6 +95,17 @@ get_header();
 </div>
 
 <div class="index--video">
+	<div class="index--video__wrapper display-sp">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/VIDEO.png" class="index--video--image__title" alt="">
+		<p class="index--video__title">わたしたちが作る映像</p>
+		<p class="index--video__description">
+		施設や親御さんと話し合い子供たちの症状にあった
+		イベントを開催します。主にVRやシュミレーターを使い、体感の高い映像や中継を楽しむことが出来ます。
+		お子様が「こんなことをやってみたい」
+		と言っていましたら、お気軽にご相談下さい。<br>
+		</p>
+	</div>
+
 	<div class="index--video--post__wrapper">
 		<?php
 			$args = array(
@@ -110,9 +121,13 @@ get_header();
 			</div>
 		<?php endwhile; ?>
 		<?php endif; wp_reset_postdata(); ?>
+
+		<a href="">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/video-button.png" class="index--video--image__button display-sp" alt="">
+		</a>
 	</div>
 
-	<div class="index--video__wrapper">
+	<div class="index--video__wrapper display-pc">
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/VIDEO.png" class="index--video--image__title" alt="">
 		<p class="index--video__title">わたしたちが作る映像</p>
 		<p class="index--video__description">
@@ -122,7 +137,7 @@ get_header();
 		と言っていましたら、お気軽にご相談下さい。<br>
 		</p>
 		<a href="">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/video-button.png" class="index--video--image__button" alt="">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/video-button.png" class="index--video--image__button display-pc" alt="">
 		</a>
 	</div>
 </div>
