@@ -96,29 +96,20 @@ get_header();
 
 <div class="index--video">
 	<div class="index--video--post__wrapper">
-		<!-- <div class="index--video--post__main"></div> -->
-		<div class="index--video--post--sub__wrapper">
-			<p style="font-size:2rem;">Coming Soon<br>
-				動画準備中です</p>
-
-		<!-- <?php
+		<?php
 			$args = array(
 				'post_type' => 'flap-video',
-				'posts_per_page' => 3
+				'posts_per_page' => 2
 			);
 			$the_query = new WP_Query( $args );
 		if ( $the_query->have_posts() ) :
 		?>
-		<ul>
-			<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-			<li><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></li>
-			<?php endwhile; ?>
-		</ul>
-		<?php endif; wp_reset_postdata(); ?> -->
-		
-			<!-- <div class="index--video--post__sub"></div>
-			<div class="index--video--post__sub"></div> -->
-		</div>
+		<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+			<div class="index--video--article__wrapper">
+				<?php the_content( $more_link_text, $stripteaser ); ?>
+			</div>
+		<?php endwhile; ?>
+		<?php endif; wp_reset_postdata(); ?>
 	</div>
 
 	<div class="index--video__wrapper">
@@ -139,10 +130,12 @@ get_header();
 <div class="contact-menu">
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/contact-title.png" class="index--contact--image__title" alt="">
 	<div class="contact-menu--index__wrapper">
-		<button class="contact-menu__button">
-				<svg class="contact-menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 64H64C28.65 64 0 92.65 0 128v256c0 35.35 28.65 64 64 64h384c35.35 0 64-28.65 64-64V128C512 92.65 483.3 64 448 64zM64 112h384c8.822 0 16 7.178 16 16v22.16l-166.8 138.1c-23.19 19.28-59.34 19.27-82.47 .0156L48 150.2V128C48 119.2 55.18 112 64 112zM448 400H64c-8.822 0-16-7.178-16-16V212.7l136.1 113.4C204.3 342.8 229.8 352 256 352s51.75-9.188 71.97-25.98L464 212.7V384C464 392.8 456.8 400 448 400z"/></svg>
-				<a href=""><p class="contact-menu__button__text">お問い合わせフォーム</p></a>
-		</button>
+		<a href="">
+			<button class="contact-menu__button">
+					<svg class="contact-menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 64H64C28.65 64 0 92.65 0 128v256c0 35.35 28.65 64 64 64h384c35.35 0 64-28.65 64-64V128C512 92.65 483.3 64 448 64zM64 112h384c8.822 0 16 7.178 16 16v22.16l-166.8 138.1c-23.19 19.28-59.34 19.27-82.47 .0156L48 150.2V128C48 119.2 55.18 112 64 112zM448 400H64c-8.822 0-16-7.178-16-16V212.7l136.1 113.4C204.3 342.8 229.8 352 256 352s51.75-9.188 71.97-25.98L464 212.7V384C464 392.8 456.8 400 448 400z"/></svg>
+					<p class="contact-menu__button__text">お問い合わせフォーム</p>
+			</button>
+		</a>
 		<p class="contact-menu__address">問い合わせ先  mori@flap.tokyo</p>
 	</div>
 </div>
