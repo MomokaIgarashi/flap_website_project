@@ -46,7 +46,7 @@
 		</div>
 
 		<div class="site-info">
-			@2022 FLAP
+			©️ 2022 FLAP
 		</div>
 	</footer>
 </div>
