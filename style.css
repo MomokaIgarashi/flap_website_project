@@ -955,7 +955,11 @@ li.menu-item{
 
 /* --------front page---------------- */
 
-.image-sp{
+.display-pc{
+	display: block;
+}
+
+.display-sp{
 	display: none;
 }
 
@@ -994,14 +998,16 @@ li.menu-item{
 
 img.index--aboutus--image__left{
 	width: 20vw;
-	height: auto;
+	/* height: auto; */
+	aspect-ratio: 4 / 5;
 	margin-bottom: 15%;
 	border-radius: 20px;
 }
 
 img.index--aboutus--image__right{
 	width: 20vw;
-	height: auto;
+	/* height: auto; */
+	aspect-ratio: 4 / 5;
 	border-radius: 20px;
 	margin-top: 15%;
 }
@@ -1030,11 +1036,11 @@ img.index--aboutus--image__right{
 		border-radius: 2rem;
 	}
 
-	.image-pc{
+	.display-pc{
 		display: none;
 	}
 
-	.image-sp{
+	.display-sp{
 		display: block;
 	}
 
@@ -1054,12 +1060,10 @@ img.index--aboutus--image__right{
 
 	img.index--aboutus--image__left{
 		width: 60vw;
-		height: auto;
 	}
 
 	img.index--aboutus--image__right{
 		width: 60vw;
-		height: auto;	
 		margin-top: -30%;
 		float: right;
 	}
@@ -1075,9 +1079,10 @@ img.index--aboutus--image__right{
 	background-image: url("assets/images/front-page/service-background.JPG");
 	background-size: cover;
 	width: 100%;
-	height: 600px;
+	/* height: 600px; */
+	aspect-ratio: 2 / 1;
+	object-fit: cover;
 	position:relative;
-	
 }
 
 img.index--service--image__title{
@@ -1107,6 +1112,51 @@ img.index--service--image__title{
 
 .index--service__wrapper{
 	text-align:center;
+}
+
+
+
+
+
+@media screen and (max-width:768px) { 
+
+	.index--service{
+		background-image: none;
+		background-size: cover;
+		position: inherit;		
+	}
+
+	.index--service__wrapper{
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+		border-radius: 3rem 0 0 0;
+		position:inherit;
+		/* top:10%;
+		right:5%; */
+		padding: 5% 0;
+	}
+
+	.index--service--image__main{
+		width: 100%;
+		aspect-ratio: 5 / 3;
+		/* height: 0;
+		position: relative;
+		padding-top: 56.25%; */
+	}
+
+	img.index--service--image__title{
+		width: 40vw;
+	}
+
+	.index--service__title{
+		font-size: 2rem;
+		margin: 3% 0;
+	}
+
+}
+@media screen and (min-width:769px) and ( max-width:1024px) {
+
 }
 
 .index--news{
