@@ -1390,6 +1390,38 @@ figure.video-border{
 	height: fit-content;
 }
 
+@media screen and (max-width:768px) { 
+
+	.contact-menu{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.index--contact--image__title{
+		width: 80vw;
+		height: auto;
+		margin-top: 10%;
+	}
+
+	.contact-menu__button{
+		width: 80vw;
+	}
+
+	.contact-menu__icon{
+		width: 10vw;
+	}
+
+	.contact-menu__button__text{
+		font-size: 1rem;
+		margin-top: 3%;
+	}
+
+}
+@media screen and (min-width:769px) and ( max-width:1024px) {
+
+}
+
 /* -----contact page --------------- */
 
 .contact--title__image{

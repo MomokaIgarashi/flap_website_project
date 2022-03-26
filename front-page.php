@@ -143,7 +143,8 @@ get_header();
 </div>
 
 <div class="contact-menu">
-	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/contact-title.png" class="index--contact--image__title" alt="">
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/contact-title.png" class="index--contact--image__title display-pc" alt="">
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/contact-title-sp.png" class="index--contact--image__title display-sp" alt="">
 	<div class="contact-menu--index__wrapper">
 		<a href="">
 			<button class="contact-menu__button">
