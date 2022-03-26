@@ -1022,17 +1022,49 @@ img.index--aboutus--image__right{
 
 @media screen and (max-width:768px) { 
 
+	.index--hero{
+		margin: 0;
+	}
+
+	.video iframe{
+		border-radius: 2rem;
+	}
+
 	.image-pc{
 		display: none;
 	}
 
+	.image-sp{
+		display: block;
+	}
+
 	.index--aboutus{
-		display: flex;
+		display: block;
 	}
 
 	.index--aboutus--center{
-		
+		width: 90vw;
+		margin: 0;
 	}
+
+	.index--aboutus--image--sp__wrapper{
+		padding-bottom: 70%;
+		display: block;
+	}
+
+	img.index--aboutus--image__left{
+		width: 60vw;
+		height: auto;
+	}
+
+	img.index--aboutus--image__right{
+		width: 60vw;
+		height: auto;	
+		margin-top: -30%;
+		float: right;
+	}
+
+
 }
 @media screen and (min-width:769px) and ( max-width:1024px) {
 

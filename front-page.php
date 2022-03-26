@@ -26,7 +26,7 @@ get_header();
 		</p>
 	</div>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/about-us-right.JPG" class="index--aboutus--image__right image-pc" alt="">
-	<div>
+	<div class="index--aboutus--image--sp__wrapper">
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/about-us-left.JPG" class="index--aboutus--image__left image-sp" alt="">
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/about-us-right.JPG" class="index--aboutus--image__right image-sp" alt="">
 	</div>
