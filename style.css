@@ -1245,10 +1245,12 @@ img.index--service--image__title{
 
 .index--news--article__wrapper{
 	width: 25vw;
-	height: auto;
+	/* height: auto; */
+	aspect-ratio: 16 / 9;
 	background: #FFB262;
 	border-radius: 3rem;
 	padding-bottom: 5%;
+	margin: 0 5%;
 }
 
 .index--news--article--text__title{

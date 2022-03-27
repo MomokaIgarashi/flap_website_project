@@ -10,31 +10,21 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+<div class="post--wrapper">
+	<?php if ( has_post_thumbnail() ) { ?>
+		<?php the_post_thumbnail('post-thumbnail', array('class' => 'post--photo') ); ?>
+		<?php }else{ ?>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/post/thumbnail-news.JPG">
+	<?php }?>
+	<div class="index--news--article--text__title">
+		<?php the_title(); ?><?php the_time('Y/m/d'); ?>
+	</div>
+	<div class="index--news--article--text__content">
+		<?php the_content( $more_link_text, $stripteaser ); ?>
+	</div>
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', get_post_type() );
-
-			the_post_navigation(
-				array(
-					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'flap' ) . '</span> <span class="nav-title">%title</span>',
-					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'flap' ) . '</span> <span class="nav-title">%title</span>',
-				)
-			);
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-	</main><!-- #main -->
+	<button>トップページに戻る</button>
+</div>
 
 <?php
-get_sidebar();
 get_footer();
