@@ -20,11 +20,11 @@ get_header();
 	<div class="post--article__title">
 		<?php the_title(); ?>
 	</div>
-	<div class="post--article__content">
-		<?php the_content( $more_link_text, $stripteaser ); ?>
-	</div>
 	<div class="post--article__date">
 		<?php the_time('Y/m/d'); ?>
+	</div>
+	<div class="post--article__content">
+		<?php the_content( $more_link_text, $stripteaser ); ?>
 	</div>
 	<a class="post--article__button" href="<?= esc_url(home_url('/'));?>">
 		トップページに戻る
