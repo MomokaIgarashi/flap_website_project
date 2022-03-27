@@ -854,6 +854,9 @@ img.custom-logo{
 }
 
 #primary-menu{
+	margin-top: 3%;
+	display: flex;
+	justify-content: flex-end;
 }
 
 
@@ -863,8 +866,6 @@ img.custom-logo{
 }
 
 .main-navigation{
-	vertical-align: middle;
-
 }
 
 .menu-header-container{
@@ -875,6 +876,9 @@ img.custom-logo{
 	padding-top: 3%;
 	display: flex;
 	justify-content: center;
+}
+
+ul.main-navigation{
 }
 
 li.menu-item{
@@ -1006,6 +1010,23 @@ li.menu-item{
 
 /* --------front page---------------- */
 
+iframe{
+	border-radius: 4rem;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	/* background: #50351D;
+	padding: 2px; */
+}
+
+@media screen and (max-width:768px) { 
+
+	iframe{
+		border-radius: 2rem;
+		width: 100%;
+		height: fit-content;
+	}
+}
+
 .display-pc{
 	display: block;
 }
@@ -1056,14 +1077,14 @@ img.index--aboutus--image__left{
 	/* height: auto; */
 	aspect-ratio: 4 / 5;
 	margin-bottom: 15%;
-	border-radius: 20px;
+	border-radius: 2rem;
 }
 
 img.index--aboutus--image__right{
 	width: 20vw;
 	/* height: auto; */
 	aspect-ratio: 4 / 5;
-	border-radius: 20px;
+	border-radius: 2rem;
 	margin-top: 15%;
 }
 
@@ -1255,6 +1276,7 @@ img.index--service--image__title{
 	border-radius: 3rem;
 	padding-bottom: 5%;
 	margin: 0 5%;
+	/* border: #50351D solid 1px; */
 }
 
 .index--news--article--text__title{
@@ -1297,6 +1319,7 @@ img.index--service--image__title{
 
 	.index--news--article__wrapper{
 		width: 90vw;
+		margin-bottom: 10%;
 	}
 
 	.index--news__link{
@@ -1318,6 +1341,7 @@ img.index--service--image__title{
 
 .index--video--post__wrapper{
 	width: 40vw;
+	margin-top: 3%;
 }
 
 .index--video--article__wrapper{
@@ -1341,16 +1365,18 @@ figure.video-border{
 
 .index--video__title{
 	font-size: 2.4rem;
-	margin-top: 2%;
+	margin-top: 5%;
 }
 
 .index--video__description{
-	margin: 0 10%;
-	line-height: 2.4rem;
+	margin: 0 8%;
+	line-height: 3rem;
 }
 
 .index--video--image__button{
-	margin-top: 5%;
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -1390,6 +1416,7 @@ figure.video-border{
 		align-items: center;
 		padding-bottom: 10%;
 		border-radius: 0 0 4rem 0;
+		margin-top: 0;
 	}
 
 	.index--video--article__wrapper{
@@ -1429,9 +1456,11 @@ figure.video-border{
 
 .contact-menu__button{
 	display: flex;
+	justify-content: space-around;
 	border-radius: 2rem;
-	padding: 2% 10%;
+	padding: 3% 10%;
 	width: 30vw;
+	background: #ffffff;
 }
 
 .contact-menu__button__text{
