@@ -1268,6 +1268,10 @@ img.index--service--image__title{
 	margin-top: 10%;
 }
 
+.index--news__link:hover{
+	background: #ccc;
+}
+
 .index--news__wrapper{
 	display: flex;
 	justify-content: center;
@@ -1766,4 +1770,37 @@ p.contact--complete__back-to-toppage{
 		padding: 5% 4%;
 		margin: 5% 0;
 	}
+}
+
+/* -----News index page------ */
+
+.flap-news--image__title{
+	width: 10vw;
+	height: auto;
+}
+
+.flap-news--wrapper{
+	background: #FFFFF0;
+}
+
+.flap-article--wrapper{
+}
+
+.flap-news--title{
+	font-size: 1.4rem;
+	font-weight: lighter;
+	margin: 2% 0 5% 0;
+}
+
+.pagenation-wrapper{
+	width: 40vw;
+	padding-bottom: 5%;
+}
+
+.pagenation-text{
+	color: #ccc;
+}
+
+.page-numbers{
+	padding: 0 2%;
 }
