@@ -89,7 +89,7 @@ get_header();
 		<?php endwhile; ?>
 		<?php endif; wp_reset_postdata(); ?>
 	</div>
-	<a href="" ><p class="index--news__link">ニュース一覧はこちら</p></a>
+	<a href="<?= esc_url(home_url('/flap-news'));?>" ><p class="index--news__link">ニュース一覧はこちら</p></a>
 </div>
 
 <div class="index--video">
