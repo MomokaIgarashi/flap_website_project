@@ -1,5 +1,5 @@
 /*!
-Theme Name: FLAP ver1
+Theme Name: FLAP ver6 20220327
 Theme URI: http://underscores.me/
 Author: MOMOKA IGARASHI
 Author URI: http://underscores.me/
@@ -888,6 +888,13 @@ li.menu-item{
 	line-height: 2rem;
 }
 
+@media screen and (max-width:768px) { 
+
+	#primary-menu{
+		display: none;
+	}
+}
+
 /* footer */
 
 .section-contact-footer-wrapper{
@@ -1492,6 +1499,7 @@ figure.video-border{
 
 	.contact-menu__button{
 		width: 80vw;
+		padding:1% 2%;
 	}
 
 	.contact-menu__icon{

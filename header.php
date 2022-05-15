@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" >
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
 	<script src="https://kit.fontawesome.com/46de671bad.js" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
