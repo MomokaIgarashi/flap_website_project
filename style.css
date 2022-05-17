@@ -1083,16 +1083,16 @@ iframe{
 
 img.index--aboutus--image__left{
 	width: 20vw;
-	/* height: auto; */
-	aspect-ratio: 4 / 5;
+	height: 100%;
+	/* aspect-ratio: 4 / 5; */
 	margin-bottom: 15%;
 	border-radius: 2rem;
 }
 
 img.index--aboutus--image__right{
 	width: 20vw;
-	/* height: auto; */
-	aspect-ratio: 4 / 5;
+	height: 100%;
+	/* aspect-ratio: 4 / 5; */
 	border-radius: 2rem;
 	margin-top: 15%;
 }
@@ -1107,8 +1107,14 @@ img.index--aboutus--image__right{
 }
 
 .index--aboutus--center__link{
-	color: #BD6203;
+	color: #E89B4A;
 	line-height: 5rem;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.index--aboutus--center__link:hover{
+	color: #BD6203;
 }
 
 @media screen and (max-width:768px) { 
