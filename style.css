@@ -1260,6 +1260,7 @@ img.index--service--image__title{
 }
 
 .index--news__link{
+	text-align: center;
 	border: #50351D solid 1px;
 	width: 15vw;
 	padding: 5%;
