@@ -26,9 +26,7 @@ get_header();
 	<div class="post--article__content">
 		<?php the_content( $more_link_text, $stripteaser ); ?>
 	</div>
-	<a class="post--article__button" href="<?= esc_url(home_url('/'));?>">
-		トップページに戻る
-	</a>
+	<a href="<?= esc_url(home_url('/flap-news'));?>" ><p class="index--news__link">ニュース一覧に戻る</p></a>
 </div>
 
 <?php
