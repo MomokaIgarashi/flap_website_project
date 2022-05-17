@@ -873,9 +873,6 @@ img.custom-logo{
 	justify-content: space-evenly;
 }
 
-.main-navigation{
-}
-
 .menu-header-container{
 	margin: 0 5%;
 }
@@ -884,9 +881,6 @@ img.custom-logo{
 	padding-top: 3%;
 	display: flex;
 	justify-content: center;
-}
-
-ul.main-navigation{
 }
 
 li.menu-item{
@@ -1618,7 +1612,6 @@ figure.video-border{
 }
 
 .contact__main-description{
-	font-size: ;
 	color: #50351D;
 	font-weight: inherit;
 }
