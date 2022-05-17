@@ -120,7 +120,7 @@ get_header();
 		<?php endwhile; ?>
 		<?php endif; wp_reset_postdata(); ?>
 
-		<a href="">
+		<a href="<?= esc_url(home_url('/flap-video'));?>">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/video-button.png" class="index--video--image__button display-sp" alt="">
 		</a>
 	</div>
@@ -134,7 +134,7 @@ get_header();
 		お子様が「こんなことをやってみたい」
 		と言っていましたら、お気軽にご相談下さい。<br>
 		</p>
-		<a href="">
+		<a href="<?= esc_url(home_url('/flap-video'));?>">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/video-button.png" class="index--video--image__button display-pc" alt="">
 		</a>
 	</div>

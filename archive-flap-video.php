@@ -8,9 +8,9 @@ Template Name: VIDEO一覧ページ
     <div class="flap-video">
         <div class="flap-video--wrapper">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/VIDEO.png" class="index--video--image__title" alt="">
-            <p class="index--video__title">わたしたちが作る映像</p>
+            <p class="index--video__title flap--video--title">わたしたちが作る映像</p>
 
-            <div class="index--video--post__wrapper">
+            <div class="flap-video--post__wrapper">
                 <?php
                     $args = array(
                         'post_type' => 'flap-video',
