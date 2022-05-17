@@ -1819,7 +1819,6 @@ p.contact--complete__back-to-toppage{
 		width: 30vw;
 		padding-bottom: 5%;
 	}
-
 }
 
 /* ----Video index page------------- */
@@ -1927,5 +1926,43 @@ p.contact--complete__back-to-toppage{
 
 .aboutus--page__link{
 	font-weight: bold;
-	padding-bottom: 20%;
+	padding-bottom: 5rem;
+}
+
+.aboutus--page__link:hover{
+	color: #BD6203;
+}
+
+
+@media (max-width: 768px) {
+
+	.aboutus-page--image__title{
+		width: 50vw;
+	}
+
+	.aboutus-page__section{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 90vw;
+		padding: 5% 0;
+	}
+
+	.aboutus--page--text__wrapper{
+		text-align: center;
+		margin: 5%;
+	}
+
+	.aboutus-page--image__first{
+		width: 80vw;
+	}
+
+	.aboutus-page--image__second{
+		width: 80vw;
+	}
+
+	.aboutus--page__link{
+		padding-top: 5rem;
+		padding-bottom: 2rem;
+	}
 }

@@ -22,7 +22,7 @@ get_header();
 		<p class="index--aboutus--center__description">
 			体が不自由な方や長期入院している子どもたちは外出することもままなりません。
 			そんな皆が笑顔になったり、毎日のモチベーションになれることを目指します。<br>
-			<a href="" class="index--aboutus--center__link">わたしたちについて詳しくはこちら</a>
+			<a href="<?= esc_url(home_url('/about-us'));?>" class="index--aboutus--center__link">わたしたちについて詳しくはこちら</a>
 		</p>
 	</div>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/about-us-right.JPG" class="index--aboutus--image__right display-pc" alt="">
