@@ -76,12 +76,12 @@ get_header();
 			</div>
 			<div class="index--news--article--text__wrapper">
 				<a href="<?php echo get_permalink(); ?>">
-					<div class="index--news--article--text__title">
+					<p class="index--news--article--text__title">
 						<?php the_title(); ?><br>
-					</div>
-					<div class="index--news--article--text__content">
+					</p>
+					<p class="index--news--article--text__content">
 						<?php echo wp_trim_words(get_the_content(), 60, '…もっとみる' );?><br>
-					</div>
+					</p>
 					<?php the_time('Y/m/d'); ?>
 				</a>
 			</div>
