@@ -1470,12 +1470,7 @@ figure.video-border{
 }
 
 .contact-menu__button{
-	display: flex;
-	justify-content: space-around;
-	border-radius: 2rem;
-	padding: 3% 10%;
 	width: 30vw;
-	background: #ffffff;
 }
 
 .contact-menu__button__text{
