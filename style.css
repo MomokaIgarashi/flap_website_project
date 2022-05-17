@@ -1,10 +1,10 @@
 /*!
-Theme Name: FLAP ver6 20220327
+Theme Name: FLAP ver7 20220517
 Theme URI: http://underscores.me/
 Author: MOMOKA IGARASHI
 Author URI: http://underscores.me/
 Description: This is a wordpress theme for FLAP
-Version: 1.0.0
+Version: 8.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -842,6 +842,14 @@ a{
 
 .site-info{
 	text-align: center;
+}
+
+.site-title{
+	display: none;
+}
+
+.site-description{
+	display: none;
 }
 
 /* * ------------header------------- * */
@@ -1784,6 +1792,7 @@ p.contact--complete__back-to-toppage{
 
 .flap-news--inner{
 	padding-bottom: 5%;
+	width: 90vw;
 }
 
 .flap-article--wrapper{
@@ -1873,5 +1882,6 @@ p.contact--complete__back-to-toppage{
 		padding-bottom: 10%;
 		border-radius: 0 0 4rem 0;
 		margin-top: 0;
+	}
 
 }
