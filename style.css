@@ -892,6 +892,13 @@ li.menu-item{
 
 @media screen and (max-width:768px) { 
 
+	img.custom-logo{
+		display: none;
+		width: 35vw;
+		height: auto;
+		padding-bottom: 15%;
+	}
+
 	#primary-menu{
 		display: none;
 	}
