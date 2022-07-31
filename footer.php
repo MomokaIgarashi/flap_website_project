@@ -37,7 +37,6 @@
 				</div>
 			</nav>
 			<div class="footer3-wrapper">
-				<nav class="footer-language">JAPANESE | ENGLISH</nav>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/nav/flap-logo.png" class="footer--nav__image" alt="">
 			</div>
 		</div>
