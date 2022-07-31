@@ -15,7 +15,7 @@ Template Name: お問い合わせ
 			*入力必須項目
 		</h3>
 		<div class="contact-form__inner__wrapper">
-			<?php echo do_shortcode('[mwform_formkey key="58"]'); ?>
+			<?php echo do_shortcode('[mwform_formkey key="46"]'); ?>
 		</div>
     </div>
 </div>

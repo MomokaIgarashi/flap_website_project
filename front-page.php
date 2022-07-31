@@ -37,9 +37,10 @@ get_header();
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/SERVICE.png" class="index--service--image__title" alt="">
 		<p class="index--service__title">サービス</p>
 		<p class="index--service__description">
-		映像を使ったイベントの提案と<br>
-		企画を実行します。様々な病気の症状、<br>
-		障がいに合わせて対応します。</p>
+			映像を使ったイベントや企画制作をします
+			主にプロジェクターを使ったゲーム、
+			プロジェクションマッピングを病院内で実施する活動をしています		
+		</p>
 	</div>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/service-background.JPG" class="index--service--image__main display-sp" alt="">
 

@@ -24,10 +24,11 @@ Template Name: About US
         <div class="aboutus--page--text__wrapper">
             <h2 class="aboutus--page--text__title">代表の声：  森   大樹</h2>
             <p class="aboutus--page--text__description">
-                4歳の娘が手に怪我をして、付き添いで一週間の短期入院を経験しました。院内にある玩具やiPadで遊びながら3日が過ぎた頃、
-                娘は朝から退屈そうな表情を浮かべていました。ベッドの上と病棟内の空間だけでは退屈だったんだと思います。<br>
-                でもこの日の夜は、病院でクリスマスコンサートがありました。娘はイベントという非日常の空間に目をキラキラさせ、皆さんと一緒に楽しむことが出来ました。娘の笑顔を見て、私も笑顔で
-                残りの入院生活を送る事が出来、とてもありがたいイベントでした。
+            入院中の子供たちは遊びや外出に制限があります。<br>
+            そんな子供たちを対象に、施設や病院内でやれるシミュレーションやVR、
+            プロジェクターを使っ亜そびを定期的に届けることが目的です。
+            子供たちが笑顔になって、家族もリラックスして入院生活が送れるようになって欲しい。
+            笑顔いっぱいのイベントを届けます。
             </p>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us/second.png" class="aboutus-page--image__second display-sp" alt="">
